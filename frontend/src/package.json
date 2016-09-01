@@ -1,0 +1,16 @@
+{
+  "name": "lms-client",
+  "version": "2.0.0-SNAPSHOT",
+  "main": "./app",
+  "scripts": {
+    "build": "webpack --optimize-minimize"
+  },
+  "author": "Steven Jardine",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
